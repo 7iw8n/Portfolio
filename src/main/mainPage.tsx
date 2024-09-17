@@ -107,6 +107,7 @@ const Title = styled.span`
 `;
 
 const Scroll = styled.button`
+  color: ${({ theme }) => theme.colors.black};
   background-color: var(--Grey-grey-50, #f9f9f9);
   border-radius: 14.4rem;
   padding: 2rem;

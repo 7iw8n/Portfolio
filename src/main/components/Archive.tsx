@@ -52,6 +52,10 @@ const Container = styled.div`
   padding: 5rem 11rem 14rem 11rem;
   color: ${({ theme }) => theme.colors.black};
   gap: 5rem;
+
+  @media (max-width: 600px) {
+    padding: 5rem 5rem 14rem 5rem;
+  }
 `;
 
 const Title = styled.span`
@@ -87,12 +91,13 @@ const Name = styled.span`
 `;
 
 const ArchiveLink = styled.a`
-  ${({ theme }) => theme.fonts.bodyM};
+  ${({ theme }) => theme.fonts.bodyL};
   color: #bebbbb;
 `;
 
 const ArchiveContent = styled.span`
-  ${({ theme }) => theme.fonts.bodyL};
+  ${({ theme }) => theme.fonts.bodyXL};
   color: ${({ theme }) => theme.colors.white};
   text-align: center;
+  line-height: 3rem;
 `;

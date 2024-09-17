@@ -86,7 +86,7 @@ const BtnWrapper = styled.div`
   gap: 5rem;
 
   @media (max-width: 600px) {
-    gap: 3rem;
+    gap: 2rem;
   }
 `;
 
@@ -106,8 +106,8 @@ const LogoBtn = styled.button`
   }
 
   @media (max-width: 600px) {
-    width: 9rem;
-    height: 9rem;
+    width: 8rem;
+    height: 8rem;
     padding: 0rem 1.5rem;
   }
 `;
@@ -127,8 +127,8 @@ const LongLogoBtn = styled.button`
   }
 
   @media (max-width: 600px) {
-    width: 20rem;
-    height: 9rem;
+    width: 18rem;
+    height: 8rem;
     padding: 0rem 1.5rem;
   }
 `;
