@@ -119,6 +119,10 @@ const Container = styled.div`
   padding: 5rem 11rem 14rem 11rem;
   background-color: ${({ theme }) => theme.colors.black};
   color: ${({ theme }) => theme.colors.white};
+
+  @media (max-width: 1200px) {
+    padding: 5rem 5rem 14rem 5rem;
+  }
 `;
 
 const Title = styled.span`
