@@ -1,6 +1,8 @@
 import { css } from "@emotion/react";
 
 export const GlobalStyles = css`
+  @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css");
+
   * {
     box-sizing: border-box;
     padding: 0;
@@ -38,6 +40,7 @@ export const GlobalStyles = css`
   }
   html {
     font-size: 62.5%;
+    font-family: "Pretendard", sans-serif;
   }
   body {
     display: flex;
