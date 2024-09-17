@@ -33,6 +33,7 @@ const Skill = () => {
             <LogoBtn>
               <Css />
             </LogoBtn>
+
             <LogoBtn>
               <Js />
             </LogoBtn>
@@ -79,18 +80,35 @@ const Title = styled.span`
   ${({ theme }) => theme.fonts.displayM};
 `;
 
+const BtnWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+
+  @media (max-width: 600px) {
+    gap: 3rem;
+  }
+`;
+
 const LogoBtn = styled.button`
   width: 14rem;
   height: 14rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0rem 2rem;
   border: 2px solid #bbb5b5;
   border-radius: 3rem;
   transition: transform 0.3s ease;
 
   &:hover {
     transform: translateY(-10px);
+  }
+
+  @media (max-width: 600px) {
+    width: 9rem;
+    height: 9rem;
+    padding: 0rem 1.5rem;
   }
 `;
 
@@ -107,6 +125,12 @@ const LongLogoBtn = styled.button`
   &:hover {
     transform: translateY(-10px);
   }
+
+  @media (max-width: 600px) {
+    width: 20rem;
+    height: 9rem;
+    padding: 0rem 1.5rem;
+  }
 `;
 
 const Content = styled.div`
@@ -115,10 +139,4 @@ const Content = styled.div`
   align-items: center;
   margin-top: 10rem;
   gap: 10rem;
-`;
-
-const BtnWrapper = styled.div`
-  display: flex;
-  flex-direction: row;
-  gap: 5rem;
 `;

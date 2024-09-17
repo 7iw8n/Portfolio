@@ -47,6 +47,10 @@ const Container = styled.div`
   padding: 5rem 11rem 14rem 11rem;
   background-color: ${({ theme }) => theme.colors.black};
   color: ${({ theme }) => theme.colors.white};
+
+  @media (max-width: 600px) {
+    padding: 5rem 11rem 7rem 11rem;
+  }
 `;
 
 const Title = styled.span`
@@ -58,12 +62,21 @@ const Title = styled.span`
 const IntroMent = styled.span`
   ${({ theme }) => theme.fonts.bodyXL}
   text-align: center;
+  line-height: 4rem;
 `;
 
 const Profile = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+
+  @media (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
 `;
 
 const ProfileBox = styled.div`

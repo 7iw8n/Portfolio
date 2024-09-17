@@ -29,9 +29,19 @@ const Container = styled.div`
   padding: 5rem 4rem 0rem 4rem;
   gap: 3.7rem;
   position: relative;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    padding: 2rem 0rem;
+  }
 `;
 
 const LogoWrapper = styled.div`
   position: absolute;
   left: 4rem;
+
+  @media (max-width: 600px) {
+    position: static; /* 로고 위치를 상위 요소에 맞춰서 위치시키기 위해 변경 */
+    margin-bottom: 2rem; /* 로고와 카테고리 버튼 사이의 간격 조정 */
+  }
 `;

@@ -7,6 +7,10 @@ import {
   nungil1,
   nungil2,
   nungil3,
+  nungil4,
+  nungil5,
+  nungil6,
+  nungil7,
   likelion1,
   lieklion2,
   likelion3,
@@ -17,7 +21,15 @@ import {
 import { NUNGIL, LIKELION, GILJOBE } from "../constants/PROJECT_CONSTANTS";
 
 const Projects = () => {
-  const nungilImages = [nungil1, nungil2, nungil3];
+  const nungilImages = [
+    nungil1,
+    nungil2,
+    nungil3,
+    nungil4,
+    nungil5,
+    nungil6,
+    nungil7,
+  ];
   const likelionImages = [likelion1, lieklion2, likelion3];
   const giljobeImages = [giljobe1, giljobe2, giljobe3];
 
@@ -49,7 +61,7 @@ const Projects = () => {
           <ProjectBox>
             <Slider {...settings}>
               {nungilImages.map((img, index) => (
-                <img key={index} src={img} alt={`nungil${index}`} />
+                <ProjectImg key={index} src={img} alt={`nungil${index}`} />
               ))}
             </Slider>
             <ProjectIntro>
@@ -134,6 +146,23 @@ const ProjectBox = styled.div`
   .slick-slider {
     width: 50%;
   }
+
+  @media (max-width: 1200px) {
+    flex-direction: column;
+    align-items: center;
+    .slick-slider {
+      width: 100%;
+    }
+    .slick-slider {
+      width: 100%;
+    }
+  }
+`;
+
+const ProjectImg = styled.img`
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 const ProjectIntro = styled.div`
