@@ -31,8 +31,8 @@ const Archive = () => {
           <Favicon_Logo />
           <Name>Portfolio</Name>
         </ArchiveTitle>
-        <ArchiveLink href="https://www.nungil.com/">
-          https://www.nungil.com
+        <ArchiveLink href="https://www.7iw8n.site/">
+          https://www.7iw8n.site/
         </ArchiveLink>
         <ArchiveContent>{PORTFOLIO}</ArchiveContent>
       </ArchiveBox>
