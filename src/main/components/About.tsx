@@ -49,7 +49,7 @@ const Container = styled.div`
   color: ${({ theme }) => theme.colors.white};
 
   @media (max-width: 600px) {
-    padding: 5rem 11rem 7rem 11rem;
+    padding: 5rem 5rem 7rem 5rem;
   }
 `;
 
