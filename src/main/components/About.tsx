@@ -49,7 +49,7 @@ const Container = styled.div`
   color: ${({ theme }) => theme.colors.white};
 
   @media (max-width: 600px) {
-    padding: 5rem 5rem 7rem 5rem;
+    padding: 5rem 3rem 7rem 3rem;
   }
 `;
 
@@ -75,16 +75,24 @@ const Profile = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 1.8rem;
   }
 `;
 
 const ProfileBox = styled.div`
-  width: 30%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+
+  @media (max-width: 600px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+  }
 `;
 
 const Ment = styled.span`
