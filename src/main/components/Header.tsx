@@ -41,7 +41,7 @@ const LogoWrapper = styled.div`
   left: 4rem;
 
   @media (max-width: 600px) {
-    position: static; /* 로고 위치를 상위 요소에 맞춰서 위치시키기 위해 변경 */
-    margin-bottom: 2rem; /* 로고와 카테고리 버튼 사이의 간격 조정 */
+    position: static;
+    margin-bottom: 2rem;
   }
 `;
