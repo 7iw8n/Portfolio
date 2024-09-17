@@ -99,6 +99,11 @@ const Title = styled.span`
   line-height: 11rem;
   animation: ${fadeIn} 2s ease-in-out;
   font-weight: 700;
+
+  @media (max-width: 600px) {
+    font-size: 6rem;
+    line-height: 8rem;
+  }
 `;
 
 const Scroll = styled.button`

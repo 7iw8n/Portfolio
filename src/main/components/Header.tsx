@@ -29,9 +29,19 @@ const Container = styled.div`
   padding: 5rem 4rem 0rem 4rem;
   gap: 3.7rem;
   position: relative;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    padding: 2rem 0rem;
+  }
 `;
 
 const LogoWrapper = styled.div`
   position: absolute;
   left: 4rem;
+
+  @media (max-width: 600px) {
+    position: static;
+    margin-bottom: 2rem;
+  }
 `;

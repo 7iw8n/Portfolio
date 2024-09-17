@@ -67,6 +67,11 @@ const ArchiveBox = styled.div`
   background-color: ${({ theme }) => theme.colors.black};
   border-radius: 2rem;
   gap: 3rem;
+
+  @media (max-width: 1000px) {
+    width: 100%;
+    padding: 3rem 3rem;
+  }
 `;
 
 const ArchiveTitle = styled.div`

@@ -42,6 +42,12 @@ export const GlobalStyles = css`
     font-size: 62.5%;
     font-family: "Pretendard", sans-serif;
   }
+  @media (max-width: 700px) {
+    html {
+      font-size: 50%;
+    }
+  }
+
   body {
     display: flex;
     flex-direction: column;
