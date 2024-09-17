@@ -5,6 +5,31 @@ export const GlobalStyles = css`
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: "Pretendard", sans-serif;
+  }
+  @font-face {
+    font-family: "Pretendard";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../main/fonts/Pretendard-SemiBold.woff2") format("woff2"),
+      url("../main/fonts/Pretendard-SemiBold.woff") format("woff"),
+      url("../main/fonts/Pretendard-SemiBold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Pretendard";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../main/fonts/Pretendard-Medium.woff2") format("woff2"),
+      url("../main/fonts/Pretendard-Medium.woff") format("woff"),
+      url("../main/fonts/Pretendard-Medium.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Pretendard";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../main/fonts/Pretendard-Regular.woff2") format("woff2"),
+      url("../main/fonts/Pretendard-Regular.woff") format("woff"),
+      url("../main/fonts/Pretendard-Regular.ttf") format("truetype");
   }
   ul,
   li {
@@ -13,11 +38,11 @@ export const GlobalStyles = css`
   }
   html {
     font-size: 62.5%;
-    font-family: "Labil Grotesk", "Noto Sans KR", "DM Sans", sans-serif;
   }
   body {
     display: flex;
     flex-direction: column;
+    font-family: "Pretendard", sans-serif;
   }
   button {
     cursor: pointer;
@@ -30,5 +55,8 @@ export const GlobalStyles = css`
   input {
     border: none;
     outline: none;
+  }
+  span {
+    white-space: pre-line;
   }
 `;
