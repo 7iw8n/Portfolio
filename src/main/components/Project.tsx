@@ -66,10 +66,10 @@ const Projects = () => {
             </Slider>
             <ProjectIntro>
               <ProjectTitle>눈길</ProjectTitle>
-              <ProjectPeriod>2023.12 ~</ProjectPeriod>
+              <ProjectPeriod>2023.12 ~ 2025.04</ProjectPeriod>
               <ProjectContent>{NUNGIL}</ProjectContent>
-              <ProjectLink href="https://www.nungil.com/">
-                https://www.nungil.com
+              <ProjectLink href="https://github.com/Igloo-Club/Igloo-Club-FE">
+                https://github.com/Igloo-Club/Igloo-Club-FE
               </ProjectLink>
             </ProjectIntro>
           </ProjectBox>
@@ -83,8 +83,8 @@ const Projects = () => {
               <ProjectTitle>멋쟁이사자처럼 숭실대 사이트</ProjectTitle>
               <ProjectPeriod>2024.01 ~ 2024.02</ProjectPeriod>
               <ProjectContent>{LIKELION}</ProjectContent>
-              <ProjectLink href="https://likelionssu.com/">
-                https://likelionssu.com/
+              <ProjectLink href="https://github.com/likelion-ssu/likelionssu-website">
+                https://github.com/likelion-ssu/likelionssu-website
               </ProjectLink>
             </ProjectIntro>
           </ProjectBox>
